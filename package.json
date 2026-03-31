@@ -15,7 +15,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build"
   },
-  "proxy": "https://kaduuka.ahsanalikhan.top",
+ "proxy": "https://backend-production-00e5.up.railway.app",
   "browserslist": {
     "production": [
       ">0.2%",
