@@ -27,6 +27,7 @@ export default function CashUp() {
       )
       .catch(() => {});
     const today = new Date().toISOString().slice(0, 10);
+    console.log("Fetching sales for", today);
     axios
       .get(`/api/reports/sales?from=${today}&to=${today}`)
       .then((r) =>
